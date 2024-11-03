@@ -8,7 +8,7 @@ public class Task6 {
         do {
             moneyForDeposit = moneyForDeposit + moneyForDeposit / 100 * 7;
             month = month+1;
-            if (month%6==0 || month%12==0){
+            if (month%6==0){
                 System.out.println("Месяц "+month+" накоплений "+moneyForDeposit);
             }
         }
